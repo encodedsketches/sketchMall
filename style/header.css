@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    max-width: 100vw;
+    min-height: calc(100vh - 100px);
+    margin: 0;
+    margin-top: 110px;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    background-color: rgb(2, 48, 72);
+    padding: 0px 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+header h1 {
+    color: whitesmoke;
+    margin: 0;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px #170d0d,
+        3px 3px 5px rgb(30, 30, 34);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 5px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 3px 10px 30px -3px rgba(0, 0, 0, 0.75);
+}
+
+header nav a {
+    color: #fffcfc;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.profile {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    border: none;
+    /* width: 200px; */
+    height: 80px;
+    padding: 0px 16px;
+}
+
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+.profile svg path {
+    fill: #ffffff;
+}
